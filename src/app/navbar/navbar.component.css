@@ -1,8 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-}
- 
 .nav ul {
   list-style: none;
   background-color: #444;
@@ -10,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .nav li {
   font-family: 'Oswald', sans-serif;
   font-size: .8em;
@@ -17,24 +13,24 @@ body {
   height: 40px;
   border-bottom: 1px solid #888;
 }
- 
+
 .nav a {
   text-decoration: none;
   color: #fff;
   display: block;
   transition: .3s background-color;
 }
- 
+
 .nav a:hover {
-  background-color: #312c32;
+  background-color: #1D1721;
 }
- 
+
 .nav a.active {
   background-color: #fff;
   color: #444;
   cursor: default;
 }
- 
+
 @media screen and (min-width: 600px) {
   .nav li {
     width: 120px;
@@ -43,7 +39,6 @@ body {
     line-height: 50px;
     font-size: .8em;
   }
-  
   .nav li {
     float: left;
   }
@@ -55,5 +50,4 @@ body {
   .nav {
     background-color: #444;
   }
-  
 }
