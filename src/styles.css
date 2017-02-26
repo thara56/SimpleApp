@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0;
+}
+
+
+/** Custom html **/
+
+html {
+  background: url(assets/vixen.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p,
+h1 {
+  color: #eff2f4;
+}
+
+img {
+  display: none;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 10px;
+  /* box-sizing: 50px; */
+  width: 300px;
+  /* height: 500px; */
+  /* margin-top: -100px; */
+  /* Half the height */
+  margin-left: -150px;
+}
