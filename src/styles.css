@@ -4,7 +4,6 @@ body {
   margin: 0;
 }
 
-
 /** Custom html **/
 
 html {
@@ -17,7 +16,7 @@ html {
 
 p,
 h1 {
-  color: #eff2f4;
+  color: #efefef;
 }
 
 img {
